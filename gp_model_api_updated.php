@@ -5,7 +5,7 @@ session_start();
 ini_set('display_errors', 0); // Don't display errors directly to users
 ini_set('display_startup_errors', 0);
 ini_set('log_errors', 1);
-ini_set('error_log', '/home/u212406014/domains/informationism.org/public_html/Gemini_memory/gp_model_debug.log'); // Centralized log file
+ini_set('error_log', 'gp_model_debug.log'); // Centralized log file
 error_reporting(E_ALL); // Log all errors
 
 // --- Constants and Configuration ---
